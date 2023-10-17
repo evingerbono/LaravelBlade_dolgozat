@@ -7,11 +7,11 @@
     </div>
 
     <div class="form-group">
-        <input type="number" name="id" placeholder="1" value="{{ $lesson->subject_id }}">
+        <input type="number" name="subject_id" placeholder="1" value="{{ $lesson->subject_id }}">
     </div>
 
     <div class="form-group">
-        <input type="number" name="id" placeholder="1" value="{{ $lesson->user_id }}">
+        <input type="number" name="user_id" placeholder="1" value="{{ $lesson->user_id }}">
     </div>
     <br>
     <input type="submit" class="btn btn-primary"></input>
